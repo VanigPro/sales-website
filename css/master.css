@@ -1,25 +1,5 @@
-/* -----------------------------------------------------------------------
-Version: 0.1
-
-SMACSS [Scalable Modular Architecture for CSS]
-Reference: http://smacss.com/
-
-Categorizing:
-1. Base  - Defaults elements, attribute selectors, pseudo-class selectors styling [example: body, form, a]
-2. Layout  - Divide the page into sections [example: header, footer] [prefix: l-]
-3. Modules - Reusable, Modular parts of design [example: sidebar, popup] [prefix: module-]
-4. State - How our module or layouts look in particular state [example: expanded, active] [prefix: is-]
-5. Theme - Look and feel of subcomponent based on theme [example: dark, light] [prefix: theme-]
-6. Pages   - Page specific styles. [prefix: page-]
------------------------------------------------------------------------ */
-/*-------------------------------------------------
-MASTER: IMPORTING STYLESHEETS
--------------------------------------------------*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -5114,7 +5094,8 @@ nav {
   .airdrop-element li {
     position: absolute;
     z-index: 999;
-    animation: airdrop-balloon 8s infinite linear; }
+    animation: airdrop-balloon 8s infinite
+ linear; }
   .airdrop-element li:first-child {
     width: 162px;
     right: 19%;
